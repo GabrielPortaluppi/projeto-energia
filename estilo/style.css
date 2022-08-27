@@ -115,9 +115,9 @@ main > p{
   
 }
 
- main  img {
+ main img {
     margin-bottom: 20px;
-
+    width: 400px;
 }
 
 footer{
