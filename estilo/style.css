@@ -101,7 +101,7 @@ main > h2{
     margin: auto;
     font-family: cursive, sans-serif;
     font-size: 2em;
-    text-shadow: 1px 4px 1px rgba(0, 0, 0, 0.26);
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.247);
     text-align: center;
 
 }
@@ -116,8 +116,14 @@ main > p{
 }
 
  main img {
+    background-color: var(--cor3);
+    margin: 0px -5px -5px -6px ;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px  ;
     margin-bottom: 20px;
-    width: 400px;
+    
+  
 }
 
 footer{
