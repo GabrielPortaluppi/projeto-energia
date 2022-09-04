@@ -116,11 +116,11 @@ main > p{
 }
 
  main img {
-    background-color: var(--cor3);
     margin: 0px -5px -5px -6px ;
-    padding: 20px;
+    max-width: 700px;
+    min-width: 300px;
+    padding: 5px;
     text-align: center;
-    border-radius: 20px  ;
     margin-bottom: 20px;
     
   
