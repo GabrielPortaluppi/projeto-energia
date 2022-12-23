@@ -7,12 +7,15 @@
     <title>Biologia</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilo/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
 </head>
 <body>
     <header  >
         <h1>Curiosiadade sobre a Energia</h1>
     </header>
-    <nav>
+    <span class="material-icons" id="burguer" onclick="clickmenu()">menu</span>
+    <nav class="itens">
         <a href="pag02.html">Mais</a>
         <a href="pag03.html">Vídeo</a>
     </nav>
@@ -27,6 +30,17 @@
     <footer>
         <p>Criado por Gabriel Portaluppi</p>
     </footer>
+
+    <script>
+        function clickmenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            }
+            else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
     
 </body>
 </html>
